@@ -1,0 +1,302 @@
+
+/*header*/
+div.header{
+    margin: 0px;
+    padding-left: 0px;
+    background-color: #EBEBEB;
+    height: 90px;
+    box-shadow: 0px 0px 20px; 
+}
+
+/*header image logo*/
+img.logo{
+    width: 400px;
+    height: 90px;
+    margin-right: 3px;
+    margin-left: 5px;
+    float: left;
+}
+
+
+/*buttons*/
+
+div.button-container{
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+a{
+    color: #292929;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 15px 16px;
+    border-radius: 5px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    line-height: 85px;
+}
+
+a.active{
+    background-color: #FFCACA;
+    color: #292929;
+}
+
+a:hover:not(.active){
+    background-color: #FADFDF;
+    color: #292929;
+}
+
+
+/*HOME PAGE*/
+
+div.text-container{
+    width: 520px;
+    height: 447px;
+    box-shadow: 0 0px 3px;
+    border-radius: 30px;
+}
+
+p.line-1{
+    font-family: "Helvetica";
+    font-size: 30px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    padding-top: 125px;
+    color: red;
+    font-weight: bold;
+}
+
+p.line-2{
+    font-family: "Helvetica";
+    font-size: 30px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+p.line-3{
+    font-family: "Courier New", "Helvetica";
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 35px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+/*Shop now button*/
+a.button{
+    color: white;
+    background-color: #E18787;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-top: 3px;
+    padding: 9px 9px;
+    border-radius: 5px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    line-height: 30px;
+}
+
+a.button:hover {
+    background-color: #292929;
+    color: #E18787;
+}
+
+/*yarn picture*/
+img.yarn{
+    width: 700px;
+    height: 447px;
+    float: right;
+    border-radius: 30px;
+    margin-right: 20px;
+    box-shadow: 0 6px 8px; 
+}
+
+div.img-container{
+    transition: taransform 0.5s ease-in-out;
+}
+
+
+div.img-container:hover img{
+    transform: scale(1.05);
+}
+
+/*ABOUT STORE*/
+/*about us text*/
+p.title{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #DD8E8E;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    margin-left: 280px;
+    letter-spacing: 10px;
+}
+
+div.text-container-2{
+    width: 563px;
+    height: 410px;
+    box-shadow: 0 0px 3px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+div.text-container-3{
+    width: 563px;
+    height: 410px;
+    box-shadow: 0 0px 3px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 630px;
+}
+
+/*yarn picture*/
+img.yarn-2{
+    width: 563px;
+    height: 447px;
+    float: right;
+    border-radius: 30px;
+    margin-right: 23px;
+    box-shadow: 0 0px 3px; 
+}
+
+div.pic-container{
+transition: tran 0.5s ease-in-out;
+}
+
+div.pic-container:hover img{
+    transform: scale(1.05);
+}
+
+p.line-4{
+    font-family: "Courier New", "Helvetica";
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+p.line-5{
+    font-family: "Courier New", "Helvetica";
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+img.main-logo{
+    width: 563px;
+    height: 447px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 0 0px 3px;
+}
+
+
+/*LINKS PAGE*/
+div.links{
+    background-color: #FFCACA;
+    width: 900px;
+    height: 300px;
+    text-align: 44px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0 2px 3px; 
+    padding: 10px;
+
+}
+
+h1.link-text{
+    margin-left: 195px;
+    margin-bottom: 45px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+img.socials{
+    width: 120px;
+    height: 120px;
+    padding-left: 5px;
+}
+
+/*center all images*/
+div.center{
+    margin-left: 76px;
+}       
+
+
+/*PRODUCTS*/
+div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Equal to 12 columns */
+    grid-gap: 20px; /* Spacing */
+    border-radius: 5px;
+    margin: 12px;
+    margin-top: 40px;
+}
+
+p.product-name{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.line-6{
+    font-family: "Courier New", "Helvetica";
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+}
+
+
+
+div.desc{
+    width: 270px;
+    height: 270px;
+    margin-left: 260px;
+    padding-top: 5px;
+}
+
+div.grid-item {
+    border: 1px solid #ddd; 
+    padding: 20px;
+    text-align: center;
+    height: 350px;
+    box-shadow: 0 0px 3px;
+    border-radius: 30px;
+}
+
+/* Adjustments for images */
+div.grid-item img {
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+    border-radius: 15px;
+    float: left; 
+    transition: taransform 0.5s ease-in-out;
+}
+
+div.grid-item:hover img{
+    transform: scale(1.1);
+}
+  
+div.grid-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
